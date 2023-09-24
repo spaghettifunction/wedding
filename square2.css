@@ -55,7 +55,7 @@ img {
 
 .last-image {
     grid-column: span 2;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 #k, #and3, #w {
@@ -78,9 +78,10 @@ button:hover {
     box-shadow: 0 0.5em 0.5em -0.4em #be3e3a;
     transform: translateY(-0.25em)
 }
-#rsvp_link, #more_details_link{
+#more_details_link{
     display:inline;
 }
+
 #rsvp {
     color:#020202;
     border: 4px solid;
@@ -93,8 +94,9 @@ button:hover {
     transform: translateY(-0.25em)
 }
 #time, #delighted {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: italic;
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 600px) {
